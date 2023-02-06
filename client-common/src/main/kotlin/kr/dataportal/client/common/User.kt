@@ -4,7 +4,6 @@ package kr.dataportal.client.common
  * @author Heli
  * Created on 2023. 02. 06
  */
-// TODO: 추후 client-common 모듈로 분리 필요
 sealed class User {
 
     data class Value internal constructor(
